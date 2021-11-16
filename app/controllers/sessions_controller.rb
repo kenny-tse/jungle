@@ -1,6 +1,5 @@
 class SessionsController < ApplicationController
 
-
   def create
     # puts "this is password entered", params[:password]
     # puts "this is password confirm", params[:password_confirmation]
@@ -22,7 +21,6 @@ class SessionsController < ApplicationController
       redirect_to '/login'
     end
   end
-
 
   # def create
   #   user = User.find_by_email(params[:email])
